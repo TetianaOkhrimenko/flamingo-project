@@ -1,3 +1,6 @@
+body {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+}
 nav {
   padding: 5px 10px;
   display: flex;
@@ -22,7 +25,6 @@ nav a {
   text-decoration: none;
   color: black;
   opacity: 0.8;
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 18px;
   font-weight: 500;
   transition: all 200ms ease-in-out;
@@ -36,7 +38,6 @@ nav li.active a {
   font-weight: 700;
 }
 h1 {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 140px;
   padding-top: 250px;
   text-align: center;
@@ -44,11 +45,9 @@ h1 {
 }
 footer {
   background: #ffcbc2;
-  height: 200px;
 }
 
 footer h4 {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-weight: 600;
   opacity: 0.8;
   font-size: 20px;
@@ -56,7 +55,6 @@ footer h4 {
   padding-top: 30px;
 }
 footer p {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 16px;
   text-align: center;
   margin: 0;
@@ -74,11 +72,9 @@ footer .heart {
 }
 footer img {
   padding: 5px 5px;
-  transition: transform 0.3s;
 }
-footer img:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+footer a:hover {
+  color: #ff7b74;
 }
 .icon {
   margin-left: 5px;
@@ -90,7 +86,6 @@ footer img:hover {
   height: 800px;
 }
 .main-content h2 {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   text-align: center;
   opacity: 0.9;
   font-size: 70px;
@@ -111,19 +106,16 @@ footer img:hover {
 }
 
 .about-flamingo h2 {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 36px;
   font-weight: 700;
   opacity: 0.9;
 }
 .about-flamingo p {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 20px;
   opacity: 0.9;
   line-height: 1.5;
 }
 .btn-branding {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 18px;
   background: #ff7b74;
   opacity: 0.9;
@@ -147,7 +139,6 @@ footer img:hover {
   max-width: 800px;
 }
 .gallery h2 {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 48px;
   text-align: center;
   padding: 40px 0;
@@ -184,7 +175,6 @@ footer img:hover {
   margin-bottom: 80px;
 }
 .facts-about-flamingo div {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 20px;
   opacity: 0.9;
   text-align: center;
@@ -227,7 +217,6 @@ footer img:hover {
   color: white;
 }
 .header-places-to-see {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 36px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -237,7 +226,6 @@ footer img:hover {
 }
 .places-to-see h2,
 .header-facts-about-flamingos {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 36px;
   font-weight: 700;
   opacity: 0.9;
@@ -245,7 +233,6 @@ footer img:hover {
 }
 
 .places-to-see p {
-  font-family: "Tiro Devanagari Sanskrit", serif;
   font-size: 18px;
   opacity: 0.9;
   line-height: 1.5;
@@ -258,4 +245,10 @@ footer img:hover {
 }
 .header-facts-about-flamingos {
   margin-top: 40px;
+}
+
+.footer-content {
+  margin: 0 auto;
+  width: 330px;
+  padding: 10px 0;
 }
