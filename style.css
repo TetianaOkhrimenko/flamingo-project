@@ -1,0 +1,261 @@
+nav {
+  padding: 5px 10px;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  padding: 14px 50px;
+  margin-bottom: 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  padding: 10px 15px;
+}
+nav li:hover {
+  background: #dfffef;
+  border-radius: 10px;
+  padding: 10px 15px;
+  transition: all 200ms ease-in-out;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+  opacity: 0.8;
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 200ms ease-in-out;
+}
+nav a:hover {
+  color: black;
+  opacity: 0.8;
+}
+nav li.active a {
+  color: #ff7b74;
+  font-weight: 700;
+}
+h1 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 140px;
+  padding-top: 250px;
+  text-align: center;
+  opacity: 0.9;
+}
+footer {
+  background: #ffcbc2;
+  height: 200px;
+}
+
+footer h4 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-weight: 600;
+  opacity: 0.8;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 30px;
+}
+footer p {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 16px;
+  text-align: center;
+  margin: 0;
+}
+footer a {
+  text-decoration: none;
+  color: black;
+}
+footer a:hover {
+  opacity: 0.8;
+}
+footer .heart {
+  display: flex;
+  justify-content: center;
+}
+footer img {
+  padding: 5px 5px;
+  transition: transform 0.3s;
+}
+footer img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.icon {
+  margin-left: 5px;
+}
+.main-content {
+  background-image: url("/images/flamingo-image21.png");
+  filter: brightness(70%);
+  background-size: cover;
+  height: 800px;
+}
+.main-content h2 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  text-align: center;
+  opacity: 0.9;
+  font-size: 70px;
+}
+.about-flamingo {
+  margin-top: 80px;
+  margin-bottom: 60px;
+  background: #dfffef;
+  padding: 60px 20px;
+}
+.image-flamingo {
+  transition: all 400ms ease-in-out;
+}
+.image-flamingo:hover {
+  cursor: pointer;
+  filter: brightness(50%);
+  opacity: 0.8;
+}
+
+.about-flamingo h2 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 36px;
+  font-weight: 700;
+  opacity: 0.9;
+}
+.about-flamingo p {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 20px;
+  opacity: 0.9;
+  line-height: 1.5;
+}
+.btn-branding {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 18px;
+  background: #ff7b74;
+  opacity: 0.9;
+  padding: 15px 40px;
+  line-height: 1.5;
+  transition: all 400ms ease-in-out;
+  border: solid 2px #ff7b74;
+  margin-top: 20px;
+}
+.btn-branding:hover {
+  border: solid 2px #ff7b74;
+}
+.text-about-flamingo {
+  padding: 0 60px;
+}
+.block-images {
+  background: #ffcbc2;
+  padding-bottom: 40px;
+}
+.gallery {
+  max-width: 800px;
+}
+.gallery h2 {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 48px;
+  text-align: center;
+  padding: 40px 0;
+  text-transform: uppercase;
+  opacity: 0.9;
+}
+.animation {
+  position: relative;
+  animation-name: example;
+  animation-duration: 10s;
+  animation-iteration-count: 3;
+}
+.block-arrow {
+  display: flex;
+  justify-content: flex-start;
+}
+.arrow {
+  padding: 35px 45px;
+  position: relative;
+  animation-name: movement;
+  animation-duration: 4s;
+  animation-iteration-count: 10;
+}
+@keyframes movement {
+  from {
+    padding: 35px 45px;
+  }
+  to {
+    padding: 35px 20px;
+  }
+}
+.facts-about-flamingo {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+.facts-about-flamingo div {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 20px;
+  opacity: 0.9;
+  text-align: center;
+  padding: 40px 30px;
+}
+.fact1-about {
+  background: #7bf1c2;
+  transition: all 800ms ease-in-out;
+}
+.fact1-about:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/flamingo-image12.jpg");
+  filter: brightness(70%);
+  background-size: cover;
+  cursor: pointer;
+  color: white;
+}
+.fact2-about {
+  background: #ff7b74;
+  transition: all 800ms ease-in-out;
+}
+.fact2-about:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/flamingo-image15.jpg");
+  filter: brightness(70%);
+  background-size: cover;
+  cursor: pointer;
+  color: white;
+}
+.fact3-about {
+  background: #f9ec88;
+  transition: all 800ms ease-in-out;
+}
+.fact3-about:hover {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("/images/flamingo-image16.jpg");
+  filter: brightness(70%);
+  background-size: cover;
+  cursor: pointer;
+  color: white;
+}
+.header-places-to-see {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.places-to-see {
+  background: #dfffef;
+}
+.places-to-see h2,
+.header-facts-about-flamingos {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 36px;
+  font-weight: 700;
+  opacity: 0.9;
+  padding: 10px 60px;
+}
+
+.places-to-see p {
+  font-family: "Tiro Devanagari Sanskrit", serif;
+  font-size: 18px;
+  opacity: 0.9;
+  line-height: 1.5;
+  padding: 10px 60px;
+}
+.places-to-see img {
+  margin-top: 15px;
+  margin-left: 40px;
+  margin-bottom: 60px;
+}
+.header-facts-about-flamingos {
+  margin-top: 40px;
+}
